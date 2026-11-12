@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "15685197698",
+    "firebase_url": "https://smartnode-8e8ac-default-rtdb.firebaseio.com",
+    "project_id": "smartnode-8e8ac",
+    "storage_bucket": "smartnode-8e8ac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15685197698:android:1bac8b13aaee34fcff799b",
+        "android_client_info": {
+          "package_name": "com.example.smartnode"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ5Ys96a8IWjTosnahhcRfMhE5SvEJwyY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

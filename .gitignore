@@ -1,0 +1,17 @@
+﻿# Android / Android Studio
+.gradle/
+.idea/
+build/
+local.properties
+*.iml
+captures/
+*.apk
+*.aab
+
+# PlatformIO / VS Code
+.pio/
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db

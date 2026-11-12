@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "author": "SmartNode",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -120, "left": 100, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": 30, "left": 260, "attrs": { "color": "red" } },
+    { "type": "wokwi-resistor", "id": "r1", "top": 80, "left": 200, "attrs": { "value": "220" } }
+  ],
+  "connections": [
+    [ "esp:3V3", "dht1:VCC", "red", [] ],
+    [ "esp:GND.1", "dht1:GND", "black", [] ],
+    [ "esp:D4", "dht1:SDA", "green", [] ],
+    [ "esp:D23", "r1:1", "blue", [] ],
+    [ "r1:2", "led1:A", "blue", [] ],
+    [ "esp:GND.2", "led1:C", "black", [] ]
+  ]
+}
